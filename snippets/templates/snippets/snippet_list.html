@@ -10,7 +10,7 @@
     <th>Text</th>
     <th>Description</th>
 </tr>
-{% for snippet in snippets %}
+{% for snippet in object_list %}
     <tr id={{snippet.id}}>
         <td>{{ snippet.title }}</td>
         <td>{{ snippet.language }}</td>

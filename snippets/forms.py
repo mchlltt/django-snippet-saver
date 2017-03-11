@@ -1,9 +1,9 @@
 from django.forms import ModelForm
 
-from . import models
+from .models import Snippet
 
 
 class SnippetForm(ModelForm):
     class Meta:
-        model = models.Snippet
+        model = Snippet
         fields = '__all__'
