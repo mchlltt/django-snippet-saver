@@ -15,11 +15,9 @@ If you would like to run the site locally, please ensure that you have installed
 2. Navigate to the cloned directory.
 3. Create a virtual environment with `virtualenv env`.
 4. Activate the environment with `source env/bin/activate`.
-5. Install the application requirements with `pip install -r requirements.txt`.
-6. Make migrations with `python manage.py makemigrations`.
-7. Run migrations with `python manage.py migrate`.
-8. Start the server with `python manage.py runserver`.
-5. The application will be running at `localhost:8000/`.
+5. Install the application requirements with `pip install -r requirements.txt` (or `pip3 manage.py runserver`.)
+6. Start the server with `python manage.py runserver` (or `python3 manage.py runserver`.)
+7. The application will be running at `localhost:8000/`.
 
 ## Technologies Used
 - Django (Web framework)
