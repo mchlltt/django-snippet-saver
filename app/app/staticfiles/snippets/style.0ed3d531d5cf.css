@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+nav h1 {
+    text-align: left;
+}
+
+nav h4 {
+    text-align: right;
+}
+
+body {
+    background-image: url("footer_lodyas/footer_lodyas.9a30e6c6c753.png");
+}

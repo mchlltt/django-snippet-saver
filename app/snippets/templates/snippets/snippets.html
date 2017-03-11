@@ -1,0 +1,25 @@
+{% extends 'snippets/layout.html' %}
+
+{% block title %}Snippets{% endblock %}
+
+{% block content %}
+<h1>Your Snippets</h1>
+<div class="col-xs-12">
+<table class="table table-bordered table-striped table-responsive">
+<tr>
+    <th>Title</th>
+    <th>Language</th>
+    <th>Text</th>
+    <th>Description</th>
+</tr>
+{% for snippet in snippets %}
+    <tr id={{snippet.id}}>
+        <td>{{ snippet.title }}</td>
+        <td>{{ snippet.language }}</td>
+        <td><pre>{{ snippet.text }}</pre></td>
+        <td>{{ snippet.description }}</td>
+    </tr>
+{% endfor %}
+</table>
+    </div>
+{% endblock %}
