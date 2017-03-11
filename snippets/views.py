@@ -1,7 +1,9 @@
-from django.shortcuts import render
-from . import models
 from django.http import HttpResponseRedirect
+from django.shortcuts import render
+
 from . import forms
+from . import models
+
 
 # Create your views here.
 def home(request):
